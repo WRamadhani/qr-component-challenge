@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0 auto;
+      background-color: #d6e1f0;
+      display: grid;
+      grid-template-rows: 2.5fr .1fr;
+      grid-template-columns: 1fr;
+
+      gap: 0px;
+      height: 100vh;
+    }
+
+    main {
+      grid-area: 1 / 1 / 2 / 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main h1 {
+      margin: 0 1rem;
+      font-size: 1.5rem;
+    }
+
+    main p {
+      color: rgb(145, 144, 144);
+      margin-left: 1rem;
+      margin-right: 1rem;
+      font-size: 1.1rem;
+    }
+
+    .attribution {
+      grid-area: 2 / 1 / 3 / 2;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .qr-card {
+      text-align: center;
+      width: 20vw;
+      background-color: #fff;
+      border-radius: 1rem;
+      padding: 1rem;
+    }
+
+    .qr-image img {
+      border-radius: 1rem;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="qr-card">
+      <div class="qr-image">
+        <img src="images/image-qr-code.png" alt="Image Of QR Code">
+      </div>
+      <div class="qr-description">
+        <h1>Improve your front-end skills by building projects</h1>
+
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Wahyu Ramadhani</a>.
+  </div>
+
+</body>
+
+</html>
